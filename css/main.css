@@ -1479,3 +1479,17 @@ button:focus {
 .my-float{
   margin-top:16px;
 }
+
+#formulario{
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+#text-carousel {
+  text-decoration: underline;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+}
