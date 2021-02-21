@@ -1481,8 +1481,20 @@ button:focus {
 }
 
 #formulario{
-  white-space: normal;
-  word-wrap: break-word;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 10px 30px;
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
 }
 
 #text-carousel {

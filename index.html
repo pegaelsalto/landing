@@ -9,7 +9,7 @@
     <meta name="author" content="Grayrids">
     <title>Pega el salto</title>
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="img/logo_pegaelsalto_canva.png" type="image/png">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="css/nivo-lightbox.css">
     <link rel="stylesheet" href="css/main.css">    
     <link rel="stylesheet" href="css/responsive.css">
-
   </head>
   
   <body>
@@ -67,24 +66,22 @@
                       <h2 id="text-carousel" >de última generación</h2>
                   </div>
               </div>
-              <!--<p>Compara tus requerimientos con diferentes freelancers.</p>-->
             </div>
           </div>
         </div> 
-      </div>  
+      </div>
+
+      <div class="container center-div">
+        <p>Compara tus requerimientos con diferentes freelancers.</p>
+      </div>
 
       <div class="container center-div">  
         <div class="header-button">
-          <a href="https://form.jotform.com/210073257329654" rel="nofollow" target="_blank" class="btn btn-common" id="formulario">Súmate con nosotros!</a>
+          <a href="https://form.jotform.com/210073257329654" rel="nofollow" target="_blank" class="btn-common" id="formulario">Sí eres freelance súmate!</a>
         </div>
       </div>
-
     </header>
     <!-- Header Section End --> 
-
-
-
-
 
     <!-- Services Section Start -->
     <section id="services" class="section">
@@ -130,8 +127,6 @@
     </section>
     <!-- Services Section End -->
 
-
-
     <!-- Business Plan Section Start -->
     <section id="features">
       <div class="container">
@@ -147,8 +142,8 @@
           <!-- Start Col -->
           <div class="col-lg-6 col-md-12 pl-4">
             <div class="business-item-info">
-              <h3>Elije al mejor freelancer</h3>
-              <p>¡Impulsa tu negocio! pegaelsalto.cl es la primera plataforma en el mercado Chileno que te permite comparar y cotizar de forma gratuita requerimientos digitales para tu negocio (logos, sitios web, contenido para tus redes sociales y mucho más)</p>
+              <h3>¡Impulsa tu negocio!</h3>
+              <p>pegaelsalto.cl es la primera plataforma en el mercado Chileno que te permite comparar y cotizar de forma gratuita requerimientos digitales para tu negocio (logos, sitios web, contenido para tus redes sociales y mucho más)</p>
             </div>
           </div>
           <!-- End Col -->
@@ -182,29 +177,29 @@
         <div class="row">
           <!-- Start Col -->
           <div class="col-lg-6 col-md-12">
-          <form id="contactForm" action=”mailto:dagalemiri@uc.cl” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+          <form id="contactForm" action="https://formspree.io/f/mleokvae" method="POST">
             <div class="row">
               <div class="col-md-12">
                 <div class="form-group">
-                  <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required data-error="Please enter your name">
+                  <input type="text" class="form-control" id="name" name="Nombre" placeholder="Nombre" required data-error="Por favor ingrese su nombre">
                   <div class="help-block with-errors"></div>
                 </div>                                 
               </div>
               <div class="col-md-12">
                 <div class="form-group">
-                  <input type="text" placeholder="Asunto" id="msg_subject" class="form-control" name="msg_subject" required data-error="Please enter your subject">
+                  <input type="text" placeholder="Asunto" id="msg_subject" class="form-control" name="Asunto" required data-error="Por favor ingrese su asunto">
                   <div class="help-block with-errors"></div>
                 </div> 
               </div>
               <div class="col-md-12">
                 <div class="form-group">
-                  <input type="text" class="form-control" id="email" name="email" placeholder="Email" required data-error="Please enter your Email">
+                  <input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" type="text" class="form-control" id="email" name="Email" placeholder="Email (Ej: pepito@mail.com)" required data-error="Por favor ingrese su email">
                   <div class="help-block with-errors"></div>
                 </div>                                 
               </div>
               <div class="col-md-12">
                 <div class="form-group"> 
-                  <textarea class="form-control" id="message"  name="message" placeholder="Escribir mensaje" rows="4" data-error="Write your message" required></textarea>
+                  <textarea class="form-control" id="message"  name="Mensaje" placeholder="Escribir mensaje" rows="4" data-error="Escriba su mensaje" required></textarea>
                   <div class="help-block with-errors"></div>
                 </div>
                 <div class="submit-button">
@@ -289,6 +284,5 @@
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>   
     <script src="js/main.js"></script>
-    
   </body>
 </html>
