@@ -1457,7 +1457,7 @@ button:focus {
    ========================================================================== */
 
 .float{
-  position:fixed;
+  /*position:fixed;*/
   width:60px;
   height:60px;
   bottom:5px;
@@ -1515,4 +1515,15 @@ button:focus {
 
 .cotizacion-image{
   width: 100%;
+}
+
+.sname {
+  color: #6c757d;
+  transition: all 500ms;
+  font-size: 16px;
+}
+.sname:hover {
+  font-size: 18px;
+  text-decoration: underline;
+  font-weight: bold;
 }
