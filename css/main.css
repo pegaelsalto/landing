@@ -586,8 +586,7 @@ button:focus {
 /* ==========================================================================
    Features 
    ========================================================================== */
-#features {
-  background: #f9f9f9; }
+
   #features .featured-bg {
     background: #fff; }
   #features .featured-border1 {
@@ -1461,8 +1460,8 @@ button:focus {
   position:fixed;
   width:60px;
   height:60px;
-  bottom:40px;
-  right:40px;
+  bottom:5px;
+  right:5px;
   background-color:#25d366;
   color:#FFF;
   border-radius:50px;
@@ -1474,6 +1473,10 @@ button:focus {
 
 .my-float{
   margin-top:16px;
+}
+
+.float:hover{
+  color:#fff;
 }
 
 #text-carousel {
@@ -1499,4 +1502,17 @@ button:focus {
 	font: 700 1.2rem/0 "Montserrat", sans-serif;
 	color: #fff;
   background-color: #3ecf8e;
+}
+
+.check-style{
+  color:#6c757d;
+  font-size: 14px;
+}
+
+.check-title{
+  font-size: 16px;
+}
+
+.cotizacion-image{
+  width: 100%;
 }

@@ -30,7 +30,7 @@
         <span></span>
         <span></span>
       </div>
-      <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
+      <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar menu-bg">
         <div class="container">
           <a href="index.html" class="navbar-brand"><img src="img/logo_pegaelsalto_canva.png" alt=""></a>       
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -95,7 +95,7 @@
                 <i class="lni-cog"></i>
               </div>
               <h4>Levanta tu requerimiento</h4>
-              <p>Share processes and data secure lona need to know basis Our team assured your web site is always safe.</p>
+              <p>Cuéntanos que quieres hacer. Te podemos ayudar en la creación de logos, sitios web, contenido para tus redes sociales, etc.</p>
             </div>
           </div>
           <!-- End Col -->
@@ -106,7 +106,7 @@
                 <i class="lni-brush"></i>
               </div>
               <h4>Compara diferentes freelancers para tu requerimiento</h4>
-              <p>Share processes and data secure lona need to know basis Our team assured your web site is always safe.</p>
+              <p>Te enviamos 5 propuestas de distintos freelancers para que puedas comparar precios, portafolios y tiempos de entrega.</p>
             </div>
           </div>
           <!-- End Col -->
@@ -117,7 +117,7 @@
                 <i class="lni-heart"></i>
               </div>
               <h4>Lleva a cabo tu proyecto</h4>
-              <p>Share processes and data secure lona need to know basis Our team assured your web site is always safe.</p>
+              <p>Nos dices que propuesta te gustó más... Y la llevamos a</p>
             </div>
           </div>
           <!-- End Col -->
@@ -130,24 +130,18 @@
     <!-- Business Plan Section Start -->
     <section id="features">
       <div class="container">
-
         <div class="row">
-          <!-- Start Col -->
-          <div class="col-lg-6 col-md-12 pl-0 pt-70 pr-5">
+          <div class="col-md-6">
             <div class="business-item-img">
-              <img src="img/business/business-img.png" class="img-fluid" alt="">
+              <img src="img/cotizacion.png" class="img-fluid cotizacion-image" alt="">
             </div>
           </div>
-          <!-- End Col -->
-          <!-- Start Col -->
-          <div class="col-lg-6 col-md-12 pl-4">
-            <div class="business-item-info">
-              <h3>¡Impulsa tu negocio!</h3>
-              <p>pegaelsalto.cl es la primera plataforma en el mercado Chileno que te permite comparar y cotizar de forma gratuita requerimientos digitales para tu negocio (logos, sitios web, contenido para tus redes sociales y mucho más)</p>
+          <div class="col-md-6">
+            <div class="business-item-info" style="display:flex; justify-content: center;">
+              <h2 class="section-title">¡Impulsa tu negocio!</h2>
+              <p class="desc-text">pegaelsalto.cl es la primera plataforma en el mercado Chileno que te permite comparar y cotizar de forma gratuita requerimientos digitales para tu negocio (logos, sitios web, contenido para tus redes sociales y mucho más)</p>
             </div>
           </div>
-          <!-- End Col -->
-
         </div>
       </div>
     </section>
@@ -164,8 +158,7 @@
               <div>   
                 <h2 class="section-title">Déjanos tu requerimiento</h2>
                 <div class="desc-text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>  
-                  <p>eiusmod tempor incididunt ut labore et dolore.</p>
+                  <p>Te contactaremos en 24 horas!</p>  
                 </div>
               </div> 
             </div>
@@ -190,11 +183,10 @@
                   <input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" type="text" class="form-control" id="email" name="Email" placeholder="Email (Ej: pepito@mail.com)" required data-error="Por favor ingrese su email">
                   <div class="help-block with-errors"></div>
                 </div>                                 
-              </div>
-              
-              <div class="col-md-12">
+              </div>       
+              <!--<div class="col-md-12">
                 <div class="form-group">
-                  <!--<input type="text" placeholder="Asunto" id="msg_subject" class="form-control" name="Asunto" required data-error="Por favor ingrese su asunto">-->
+                  <input type="text" placeholder="Asunto" id="msg_subject" class="form-control" name="Asunto" required data-error="Por favor ingrese su asunto">
 
                   <select placeholder="Asunto" multiple id="msg_subject" class="form-control" name="Asunto" required data-error="Por favor ingrese su asunto">
                     <option selected value="" disabled>Seleccione servicios a solicitar</option>
@@ -208,9 +200,41 @@
                     <option value="Otros">Otros</option>
                   </select>
                   <div class="help-block with-errors"></div>
-                </div> 
+                </div>
+              </div>-->
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="flexCheckboxTitle" class="check-style check-title">Seleccione servicios a solicitar:</label>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Creación de logos" id="flexCheckLogo">
+                    <label class="form-check-label check-style" for="flexCheckLogo">Creación de logos</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Creación contenido Instagram" id="flexCheckInsta">
+                    <label class="form-check-label check-style" for="flexCheckInsta">Creación contenido Instagram</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Creación contenido Facebook" id="flexCheckFb">
+                    <label class="form-check-label check-style" for="flexCheckFb">Creación contenido Facebook</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Creación paginas web" id="flexCheckWebBuild">
+                    <label class="form-check-label check-style" for="flexCheckWebBuild">Creación paginas web</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Diseño Web" id="flexCheckWebDesing">
+                    <label class="form-check-label check-style" for="flexCheckWebDesing">Diseño Web</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Fotografía productos" id="flexCheckPhoto">
+                    <label class="form-check-label check-style" for="flexCheckPhoto">Fotografía productos</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Community Manager" id="flexCheckCM">
+                    <label class="form-check-label check-style" for="flexCheckCM">Community Manager</label>
+                  </div>
+                </div>
               </div>
-
               <div class="col-md-12">
                 <div class="form-group"> 
                   <textarea class="form-control" id="message"  name="Mensaje" placeholder="Escribir mensaje" rows="4" data-error="Escriba su mensaje" required></textarea>
@@ -225,26 +249,16 @@
             </div>            
           </form>
           </div>
-          <!-- End Col -->
-          <!-- Start Col -->
           <div class="col-lg-1">
-            
           </div>
-          <!-- End Col -->
-          <!-- Start Col -->
           <div class="col-lg-4 col-md-12">
             <div class="contact-img">
               <img src="img/contact/01.png" class="img-fluid" alt="">
             </div>
           </div>
-          <!-- End Col -->
-          <!-- Start Col -->
           <div class="col-lg-1">
           </div>
-          <!-- End Col -->
-
         </div>
-        <!-- End Row -->
       </div>
     </section>
 
