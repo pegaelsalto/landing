@@ -1514,7 +1514,7 @@ button:focus {
 }
 
 .cotizacion-image{
-  width: 100%;
+  width: 90%;
 }
 
 .sname {
@@ -1525,5 +1525,6 @@ button:focus {
 .sname:hover {
   font-size: 18px;
   text-decoration: underline;
-  font-weight: bold;
+  text-decoration-color: #3ecf8e;
+  color: #3ecf8e;
 }
