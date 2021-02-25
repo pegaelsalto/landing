@@ -30,6 +30,9 @@ p {
   line-height: 26px;
   margin-bottom: 0; }
 
+a:hover, a:focus {
+  color: #000; }
+
 a {
   color: #000;
   -webkit-transition: all 0.3s ease-in-out;
@@ -527,12 +530,10 @@ button:focus {
    ========================================================================== */
 #services .services-item {
   padding: 60px 30px;
-  border: 1px solid #ddd;
   -moz-transition: all .8s ease;
   -webkit-transition: all .8s ease;
   transition: all .8s ease; }
   #services .services-item:hover {
-    border: 1px solid #3ecf8e;
     box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
     -moz-transition: all .4s ease;
     -webkit-transition: all .4s ease;
@@ -586,7 +587,8 @@ button:focus {
 /* ==========================================================================
    Features 
    ========================================================================== */
-
+#features {
+  background: #f9f9f9; }
   #features .featured-bg {
     background: #fff; }
   #features .featured-border1 {
@@ -801,6 +803,7 @@ button:focus {
       display: inline-block;
       margin: 8px; }
     #showcase .showcase-slider .screenshot-thumb .zoom-icon a:hover i {
+      color: #000;
       -webkit-transition: all 200ms ease-in;
       -ms-transition: all 200ms ease-in;
       -moz-transition: all 200ms ease-in;
@@ -1098,8 +1101,6 @@ button:focus {
 .blog-hero-area .contents {
   padding: 160px 0 140px; }
 
-#blog {
-  background: #f9f9f9; }
   #blog .blog-item-wrapper {
     border: 1px solid #ddd;
     background-color: #fff;
@@ -1388,6 +1389,7 @@ button:focus {
    Footer section
    ========================================================================== */
 #footer-Content {
+  padding-top: 130px;
   background: #180e29; }
   #footer-Content .footer-logo img {
     padding-top: 70px; }
@@ -1452,12 +1454,36 @@ button:focus {
       -o-transition: all 300ms;
       transition: all 300ms; }
 
-/* ==========================================================================
-   #Whatsapp button
-   ========================================================================== */
+/* New design */
+.btn-solid-lg {
+  display: inline-block;
+  padding: 1.375rem 2.125rem 1.375rem 2.125rem;
+  border-radius: 0.25rem;
+  background-color: #3ecf8e;
+  color: #fff;
+  font: 700 0.75rem/0 "Montserrat", sans-serif;
+  transition: all 0.2s;
+}
+
+.btn-solid-lg:hover {
+  font: 700 0.9rem/0 "Montserrat", sans-serif;
+  color: #fff;
+  background-color: #3ecf8e;
+}
+
+.sname {
+  color: #6c757d;
+  transition: all 500ms;
+  font-size: 16px;
+}
+.sname:hover {
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration-color: #3ecf8e;
+  color: #3ecf8e;
+}
 
 .float{
-  /*position:fixed;*/
   width:60px;
   height:60px;
   bottom:5px;
@@ -1477,54 +1503,4 @@ button:focus {
 
 .float:hover{
   color:#fff;
-}
-
-#text-carousel {
-  text-decoration: underline;
-}
-
-.center-div {
-  display: flex;
-  justify-content: center;
-}
-
-.btn-solid-lg {
-	display: inline-block;
-	padding: 1.375rem 2.125rem 1.375rem 2.125rem;
-	border-radius: 0.25rem;
-	background-color: #3ecf8e;
-	color: #fff;
-	font: 700 0.75rem/0 "Montserrat", sans-serif;
-	transition: all 0.2s;
-}
-
-.btn-solid-lg:hover {
-	font: 700 1.2rem/0 "Montserrat", sans-serif;
-	color: #fff;
-  background-color: #3ecf8e;
-}
-
-.check-style{
-  color:#6c757d;
-  font-size: 14px;
-}
-
-.check-title{
-  font-size: 16px;
-}
-
-.cotizacion-image{
-  width: 90%;
-}
-
-.sname {
-  color: #6c757d;
-  transition: all 500ms;
-  font-size: 16px;
-}
-.sname:hover {
-  font-size: 18px;
-  text-decoration: underline;
-  text-decoration-color: #3ecf8e;
-  color: #3ecf8e;
 }

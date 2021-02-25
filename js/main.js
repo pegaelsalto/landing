@@ -45,6 +45,20 @@
         itemsTablet: [600, 1],
         itemsMobile: [479, 1]
       });
+
+
+
+  /* 
+   Sticky Nav
+   ========================================================================== 
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop() > 100) {
+            $('.header-top-area').addClass('menu-bg');
+        } else {
+            $('.header-top-area').removeClass('menu-bg');
+        }
+    });*/
+
   /* 
  VIDEO POP-UP
  ========================================================================== */
@@ -89,6 +103,15 @@
             target: '.navbar-collapse',
             offset: 195
         });
+
+        $(window).on('scroll', function() {
+            if ($(window).scrollTop() > 100) {
+                $('.fixed-top').addClass('menu-bg');
+            } else {
+                $('.fixed-top').removeClass('menu-bg');
+            }
+        });
+
     });
 
   /* Auto Close Responsive Navbar on Click
@@ -115,11 +138,9 @@
 
 }(jQuery));
 
-
-
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
-  var dataText = [ "creación de logos", "diseño y desarrollo de paginas web", "contendio gráfico para RRSS", "fotografías", "community manager", "SEM/SEO", "diseño UX/UI", "edición de videos"];
+  var dataText = [ "creación de logos", "diseño paginas web", "contendio para RRSS", "fotografías", "community manager", "SEM/SEO", "diseño UX/UI", "edición de videos"];
   
   // type one text in the typwriter
   // keeps calling itself until the text is finished
