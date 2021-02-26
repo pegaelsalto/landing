@@ -50,14 +50,14 @@
 
   /* 
    Sticky Nav
-   ========================================================================== 
+   ========================================================================== */
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 100) {
             $('.header-top-area').addClass('menu-bg');
         } else {
             $('.header-top-area').removeClass('menu-bg');
         }
-    });*/
+    });
 
   /* 
  VIDEO POP-UP
@@ -140,7 +140,7 @@
 
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
-  var dataText = [ "creación de logos", "diseño paginas web", "contendio para RRSS", "fotografías", "community manager", "SEM/SEO", "diseño UX/UI", "edición de videos"];
+  var dataText = [ "creación de logos", "diseño paginas web", "contenido para RRSS", "fotografías", "community manager", "SEM/SEO", "diseño UX/UI", "edición de videos", "y mucho más!"];
   
   // type one text in the typwriter
   // keeps calling itself until the text is finished
