@@ -604,8 +604,8 @@ button:focus {
     transition: all .8s ease; }
     #features .feature-item .feature-icon {
       background: #e3fff2;
-      width: 100px;
-      height: 100px;
+      width: 80px;
+      height: 80px;
       margin: 0px auto;
       margin-top: 0px;
       margin-right: auto;
@@ -620,7 +620,7 @@ button:focus {
       border: 1px solid #3ecf8e;
       margin-top: 12px; }
       #features .feature-item .feature-icon i {
-        font-size: 40px;
+        font-size: 30px;
         color: #3ecf8e;
         position: absolute;
         left: 0;
@@ -1501,4 +1501,12 @@ button:focus {
 
 .float:hover{
   color:#fff;
+}
+
+.logo_img {
+  max-width:100%;
+}
+
+.impulsa-margin {
+  margin-top: 50px;
 }
