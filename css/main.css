@@ -1510,3 +1510,56 @@ button:focus {
 .impulsa-margin {
   margin-top: 50px;
 }
+
+.texto-blur {
+  text-align: center;
+}
+
+.texto-blur {
+  transition: .3s all;
+  border-radius: 3px;
+}
+
+.texto-blur {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  opacity: 0;
+}
+
+.article-image:before {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: .4s ease-in-out;
+}
+.article-image:hover {
+  background-color: #b7bace;
+  transition: .4s ease-in-out;
+}
+
+.ar-image {
+  position: relative;
+}
+.article-image > p {
+  display: none;
+}
+.article-image:hover > p {
+  position: absolute;
+  top: 40%;
+  display: block;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  z-index: 9999999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: .4s ease-in-out;
+}
